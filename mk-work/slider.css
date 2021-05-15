@@ -1,0 +1,235 @@
+.slide{
+    margin-top: 0.6%;
+    height: 90%;
+}
+
+.carousel-item{
+    border-radius: 35px;
+}
+
+.slide-bar{
+    height: 89%;
+    width: 88%;
+    margin: auto;
+    background-color: #062B36;
+    border-radius: 35px;
+    margin-top: 7px;
+}
+
+.slide-opicalty{
+    background-color: #062B36;
+    height: 111%;
+    width: 100%;
+    border-radius: 35px;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 1;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 111%;
+    border-radius: 35px;
+}
+
+.carousel-caption p{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 23%;
+    font-size: 17px;
+}
+
+.carousel-caption h1{
+    font-family: 'League Spartan';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    width: 55%;
+    margin: auto;
+    font-size: 66px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.slider-next-button{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 65%;
+    right: 307%;
+    background-image: url("slide-button.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.slide-ucgen{
+    background-image: url("slide-ucgen.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 21.8px;
+    margin-top: 38%;   
+    margin-left: 35%;
+}
+
+.xx{
+    position: relative;
+    top: 20%;
+}
+
+.ucgen{
+    height: 9%;
+    width: 3%;
+    float: left;
+    position: relative;
+    top: 5.4%;
+    left: 11%;
+    background-image: url("ucgen.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.soluk-ucgen{
+    height: 27%;
+    width: 8%;
+    float: left;
+    position: relative;
+    top: -4%;
+    left: -6%;
+    background-image: url("soluk-ucgen.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.date{
+    height: 150px;
+    width: 20%;
+    float: right;
+    border-radius: 20px;
+    position: relative;
+    bottom: 3%;
+    right: 5%;
+    background-color: orangered;
+    z-index: 2;
+}
+
+.date h5{
+    color: black;
+    text-align: left;
+    padding: 1% 15%;
+}
+
+.date h6{
+    color: white;
+    text-align: left;
+    padding-left: 15%;
+    padding-bottom: 0px;
+    padding-top: 7%;
+}
+
+.date a{
+    color: white;
+    margin-left: 15%;
+}
+
+.date button{
+    background-image: url("ok.png");
+    border: none;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    float: right;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 1317px) {
+    .date{
+        height: 120px;
+        width: 25%;
+        bottom: 1%;
+        right: 4.5%;
+    }
+    
+    .date h5{
+        padding: 0.3% 14%;
+    }
+    
+    .date h6{
+        font-size: 13px;
+    }
+    
+    .date h5{
+        font-size: 17px;
+    }
+
+    .date button{
+        background-image: url("a.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.7;
+        border: none;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        float: right;
+        margin-right: 22%;
+        margin-bottom: 2%;
+        border-radius: 50%;
+    }
+
+    .carousel-caption p{
+        width: 62%;
+        margin: auto;
+        margin-bottom: 48%;
+        font-size: 17px;
+    }
+    
+    .carousel-caption h1{
+        font-family: 'Poppins';
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        width: 62%;
+        margin: auto;
+        font-size: 42px;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    .slider-next-button{
+        height: 65px;
+        width: 65px;
+        position: absolute;
+        top: 65%;
+        right: 307%;
+        background-image: url("slide-button.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 1;
+    }
+    
+    .slide-ucgen{
+        background-image: url("slide-ucgen.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 21.8px;
+        margin-top: 38%;   
+        margin-left: 35%;
+    }
+}

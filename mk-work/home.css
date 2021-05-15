@@ -1,0 +1,910 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.siyah-ekran{
+    background-image: url('s.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-style{
+    flex: 1;
+}
+
+#logo{
+    height: 82px;
+    width: 15%;
+    float: left;
+}
+
+#logo img{
+    height: 82px;
+    width: auto;
+}
+
+.navbar{
+    width: 80%;
+    height: 82px;
+    float: right;
+    font-family: 'Poppins';
+}
+
+.link{
+    margin-top: 20px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.link:hover{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+
+.teklif-al{
+    margin-left: 7%;
+    background-color: orangered;
+    border: none;
+    border-radius: 25px;
+    width: 120px;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+.slide{
+    margin-top: 0.6%;
+    flex: 1;
+    display: flex;
+    flex-direction: 1;
+}
+
+.slide-bar{
+    flex: 1;
+    width: 88%;
+    margin: auto;
+    background-color: #062B36;
+    border-radius: 35px;
+    margin-top: 7px;
+}
+
+.slide-opicalty{
+    background-color: #062B36;
+    flex: 1;
+    width: 100%;
+    border-radius: 35px;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 1;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    flex: 1;
+    border-radius: 35px;
+}
+
+.carousel-caption p{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 25%;
+}
+
+.xx{
+    position: relative;
+    top: 20%;
+}
+
+.ucgen{
+    flex: 1;
+    width: 3%;
+    float: left;
+    position: relative;
+    top: 5.4%;
+    left: 11%;
+    background-image: url("ucgen.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.soluk-ucgen{
+    flex: 1;
+    width: 8%;
+    float: left;
+    position: relative;
+    top: -4%;
+    left: -6%;
+    background-image: url("soluk-ucgen.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.date{
+    height: 150px;
+    width: 20%;
+    float: right;
+    border-radius: 20px;
+    position: relative;
+    bottom: 3%;
+    right: 5%;
+    background-color: orangered;
+    z-index: 2;
+}
+
+.date h5{
+    color: black;
+    text-align: left;
+    padding: 1% 15%;
+}
+
+.date h6{
+    color: white;
+    text-align: left;
+    padding-left: 15%;
+    padding-bottom: 0px;
+    padding-top: 7%;
+}
+
+.date a{
+    color: white;
+    margin-left: 15%;
+}
+
+.date button{
+    background-image: url("ok.png");
+    border: none;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    float: right;
+    margin-right: 5%;
+}
+
+.hakkimizda{
+    height: 72%;
+    width: 88%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.baslik{
+    height: 18%;
+    width: 100%;
+}
+
+.baslik h2{
+    color: white;
+    width: 50%;
+}
+
+hr{
+    border: 0.1px solid white;
+    margin-top: 3%;
+}
+
+.hakkimizda-img{
+    height: 86%;
+    width: 45%;
+    float: left;
+}
+
+.h-img{
+    height: 76%;
+    width: 95%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-color: grey;
+    background-image: url("hakkimizda-img.png");
+    border-radius: 28px;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.saydam{
+    height: 100%;
+    width: 100%;
+    border-radius: 28px;
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.hakkimizda-icerik{
+    height: 83%;
+    width: 55%;
+    float: left;
+}
+
+.h-icerik{
+    overflow: hidden;
+    max-height: 77%;
+    text-overflow: ellipsis;
+}
+
+.hakkimizda-icerik p{
+    margin-top: 3%;
+    color: white;
+}
+
+.hakkimizda-button{
+    height: 34px;
+    width: 130px;
+    background-image: url("hakkimizda-button.png");
+    border: none;
+    float: right;
+    position: relative;
+    top: 11%;
+}
+
+.sektorler{
+    height: 65%;
+    width: 88%;
+    margin: auto;
+}
+
+.sektorler-baslik{
+    width: 100%;
+    height: 15%;
+}
+
+.sektorler h2{
+    color: black;
+}
+
+.sektorler hr{
+    border: 1px solid black;
+}
+
+.s-elements{
+    height: 75%;
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.sektor-img:nth-child(even){
+    height: 70%;
+    width: 18.8%;
+    float: left;
+    background-color: black;
+    border-radius: 25px;
+    transform: skew(-7deg);
+    margin-top: 8%;
+    margin-right: 1%;
+}
+
+.sektor-img:nth-child(odd){
+    height: 70%;
+    width: 18.8%;
+    float: left;
+    border-radius: 25px;
+    transform: skew(-7deg);
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.seffaf{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    opacity: 0.4;
+    position: absolute;
+}
+
+.sektor-img:nth-child(odd) h5{
+    color: black;
+    text-align: center;
+    position: absolute;
+    color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.sektor-img:nth-child(even) h5{
+    color: black;
+    text-align: center;
+    position: absolute;
+    color: white;
+    margin-top: 80%;
+    margin-left: 20%;
+}
+
+
+.sektor-img:first-child{
+    background-image: url("s-img1.png");
+    background-size: cover;
+}
+
+.sektor-img:nth-child(2){
+    background-image: url("s-img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sektor-img:nth-child(3){
+    background-image: url("s-img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sektor-img:nth-child(4){
+    background-image: url("s-img4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sektor-img:nth-child(5){
+    background-image: url("s-img5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tarim{
+    height: 65%;
+    width: 88%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.t-hr{
+    border: 0.1px solid black;
+    margin-top: 3%;
+}
+
+.tarim-icerik-ozet{
+    height: 50%;
+    width: 50%;
+    float: left;
+    padding-right: 2%;
+    overflow: hidden;
+    max-height: 77%;
+    text-overflow: ellipsis;
+}
+
+.tarim-icerik{
+    height: 90%;
+    width: 50%;
+    float: left;
+    padding-left: 2%;
+    overflow: hidden;
+    max-height: 77%;
+    text-overflow: ellipsis;
+}
+
+.tarim-button{
+    height: 34px;
+    width: 130px;
+    background-image: url("hakkimizda-button.png");
+    border: none;
+    float: left;
+    position: relative;
+    top: 13%;
+}
+
+.psb{
+    height: 100%;
+    background-image: url("psf-img2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.psb-icerik{
+    height: 45%;
+    width: 88%;
+    margin: auto;
+    position: relative;
+    top: 45%;
+}
+
+.psb-baslik{
+    color: white;
+}
+
+.psb p{
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+.p-hr{
+    border: 0.1px solid white;
+    margin-top: 3%;
+}
+
+.egitmeHaklari{
+    height: 65%;
+    width: 88%;
+    margin: auto;
+    margin-top: 6%;
+}
+
+.egitmeHaklari-icerik{
+    height: 65%;
+}
+
+.unite{
+    height: 95%;
+    background-color: #333738;
+    width: 23.5%;
+    float: left;
+    border-radius: 25px;
+}
+
+.unite:nth-child(2){
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+.unite:nth-child(3){
+    margin-right: 2%
+}
+
+.unite-baslik p:nth-child(1){
+    color: white;
+    margin-left: 7%;
+    width: 22%;
+    float: left;
+    font-size: 18px;
+}
+
+.unite-baslik{
+    width: 100%;
+    height: 7%;
+    margin-top: 7%;
+}
+
+.unite-nokta{
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    background-color: orangered;
+    float: right;
+    margin-right: 7%;
+}
+
+.unite-icerik{
+    margin-left: 7%;
+    width: 88%;
+    float: left;
+    margin-top: 27%;
+}
+
+.unite-icerik p{
+    color: white;
+    font-size: 18px;
+}
+
+.eH-hr{
+    border: 0.1px solid black;
+}
+
+.unite:hover {
+    background-color: orangered;
+}
+
+.unite:hover .unite-nokta{
+    background-color: black;
+}
+
+.egitmeHaklariBtn {
+    height: 15%;
+    width: 100%;
+    border-radius: 25px;
+    background-image: url("eh-btn.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.eh-btn{
+    background-image: url("eh-btn2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 100%;
+    margin: auto;
+}
+
+.kaliplama-hatlari{
+    height: 90%;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.kh-baslik{
+    width: 88%;
+    margin: auto;
+}
+
+.kaliplama-hatlari-icerik{
+    height: 93%;
+    margin: auto;
+    color: white;
+    margin-top: 2%;
+}
+
+.khi-icerikler{
+    position: relative;
+    z-index: 1;
+    width: 75%;
+    margin: auto;
+    margin-top: 45%;
+}
+
+.khi-icerikler .hk-icerik-baslik{
+    margin-top: 9%;
+}
+
+.khi-icerikler .hk-icerik{
+    margin-top: -3%;
+}
+
+.kaliplama-hatlari-icerik .col:nth-child(1){
+    background-image: url("dene-kh-img1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kaliplama-hatlari-icerik .col:nth-child(2){
+    background-image: url("kh-img2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kaliplama-hatlari-icerik .col:nth-child(3){
+    background-image: url("kh-img3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seffaf-kh{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    opacity: 0.7;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.egitmehaklari-2{
+    height: 90%;
+    width: 88%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.baslik-eh hr{
+    border: 1px solid black;
+}
+
+.eh2-deneme{
+    height: 71%;
+    width: 100%;
+}
+
+.egitmeHaklari2-icerik{
+    height: 100%;
+    width: 23.5%;
+    float: left;
+}
+
+.egitmeHaklari2-img{
+    height: 55%;
+    width: 100%;
+    background-color: #333738;
+    border-radius: 25px;
+}
+
+.egitmeHaklari2-icerik:nth-child(1) .egitmehaklari2-img{
+    background-image: url("eh2-img1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.egitmeHaklari2-icerik:nth-child(2) .egitmehaklari2-img{
+    background-image: url("eh2-img2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.egitmeHaklari2-icerik:nth-child(3) .egitmehaklari2-img{
+    background-image: url("eh2-img3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.egitmeHaklari2-icerik:nth-child(4) .egitmehaklari2-img{
+    background-image: url("eh2-img4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.egitmeHaklari2-icerik:nth-child(2){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.egitmeHaklari2-icerik:nth-child(3){
+    margin-right: 2%;
+}
+
+.eh2-baslik{
+    margin-top: 10%
+}
+
+.eh2-aciklama{
+    margin-top: 5%;
+}
+
+.egitmehaklari2Btn{
+    height: 15%;
+    width: 100%;
+    border-radius: 25px;
+    background-image: url("eh-btn.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+}
+
+.eh2-btn{
+    background-image: url("eh-btn2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 100%;
+    margin: auto;   
+}
+
+.muhendislik-kalite{
+    height: 90%;
+    width: 88%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.mk-hr{
+    border: 1px solid black;
+}
+
+.mk-icerik{
+    height: 85%;
+    width: 100%;
+    margin: auto;
+
+}
+
+.mk-img{
+    height: 85%;
+    width: 23.5%;
+    border-radius: 25px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mk-img h5{
+    width: 20.7%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+
+.mk-img:nth-child(1){
+    background-image: url("mk-img1.png");
+}
+
+.mk-img:nth-child(2){
+    background-image: url("mk-img2.png");
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 6.4%;
+}
+
+.mk-img:nth-child(3){
+    background-image: url("mk-img3.png");
+}
+
+.mk-img:nth-child(4){
+    background-image: url("mk-img4.png");
+    margin-left: 2%;
+    margin-top: 6.4%;
+}
+
+.mk-img:nth-child(odd) h5{
+    margin-top: -8%;
+}
+
+.mk-img:nth-child(even) h5{
+    margin-top: -13.7%;
+}
+
+.seffaf-mk{
+    background-color: black;
+    border-radius: 25px;
+    opacity: 0.4;
+    width: auto;
+    height: 100%;
+}
+
+.teklif-talebi{
+    height: 30%;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+
+.baslik-tt{
+    width: 88%;
+    margin: auto;
+    color: white;
+}
+
+*:focus {
+    outline: none;
+}
+
+.tt-icerik{
+    height: 35%;
+    width: 88%;
+    margin: auto;
+    margin-top: 3.3%;
+}
+
+.tt-icerikbtn{
+    width: 23.1%;
+    border: 1px solid whitesmoke;
+    height: 88%;
+    float: left;
+    margin-right: 2.5%;
+    border-radius: 25px;
+    margin-top: 0.7%;
+}
+
+.btn-baslik{
+    width: 25%;
+    height: 35%;
+    margin-top: -4%;
+    margin-left: 13%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+
+.text-style{
+    background-color: transparent;
+    height: 200%;
+    width: 350%;
+    margin-top: -18%;
+    margin-left: -30%;
+    border: none;
+    color: whitesmoke;
+}
+
+.text-style:hover{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.tt-icerikbtn-btn{
+    width: 23.1%;
+    background-color: orangered;
+    height: 88%;
+    float: left;
+    border-radius: 50px;
+    margin-top: 0.7%;
+}
+
+.tt-icerikbtn-btn p{
+    font-size: 23px;
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 30%;
+    color: whitesmoke;
+}
+
+.tt-icerikbtn-btn .ok{
+    height: 55%;
+    width: 18%;
+    margin-left: 75%;
+    margin-top: 5%;
+    background-image: url("a.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.haberler{
+    height: 70%;
+    width: 88%;
+    margin: auto;
+}
+
+.haberler-icerik{
+    border: 1px solid #333738;
+    height: 78%;
+    width: 40%;
+    margin-right: 2.5%;
+    float: left;
+    border-radius: 25px;
+}
+
+.haberler-icerik-yarim{
+    border: 1px solid #333738;
+    height: 78%;
+    width: 15%;
+    float: left;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: none;
+}
+
+.haberler-img{
+    background-color: blue;
+    height: 43.2%;
+    width: 100%;
+    background-image: url("haberler-img2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.haberler-baslik{
+    height: 14.1%;
+    width: 100%;
+}
+
+.haberler-baslik h5{
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+.haberler-icerik-yazi{
+    height: 28.3%;
+    width: 100%;
+}
+
+.haberler-icerik-yazi p{
+    padding-left: 5%;
+    padding-right: 10%;
+    text-align:Justify;
+}
+
+.haberler-tarih{
+    height: 10.8%;
+    width: 100%;
+}
+
+.haberler-tarih p{
+    padding-top: 4.2%;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 12px;
+}
+
+
+.footer{
+    height: 40%;
+    background-color: gray;
+}
